@@ -1,5 +1,5 @@
-//C_MM010
-//https://e-tutor.itsa.org.tw/e-Tutor/mod/programming/view.php?id=6882
+//C_MM011
+//https://e-tutor.itsa.org.tw/e-Tutor/mod/programming/view.php?a=2923
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -13,12 +13,16 @@ typedef long long ll;
 #define DEBUG 1
 
 int main(){
-    double a;
+    ll a;
    
-	while(scanf("%lf",&a)!=EOF){
+	while(scanf("%lld",&a)!=EOF){
 		
-		a=a*9/5+32;
-        printf("%.1lf\n",a);
+		
+    
+    
+    printf("NT10=%lld\n",a/10);
+    printf("NT5=%lld\n",(a%10)/5);
+    printf("NT1=%lld\n",a%5);
         
         
     }
